@@ -1,4 +1,29 @@
-@media(max-width:768px) {
+@media(max-width:1366px) {
+    main {
+        max-width: 1000px;
+        margin:0 auto;
+        padding: 30px 30px 10px 30px;
+    }
+    main picture {
+        width: 100%;
+    }
+    main .info .title{
+        font-size: 70px;
+        width: 460px;
+        line-height:60px;
+        margin-bottom: 32px;
+    }
+    main .info .content {
+        font-size: 18px;
+        width: 425px;
+        margin-bottom: 35px;
+    }
+    main .info .learn-more {
+        margin-bottom: 65px;
+    }
+}
+
+@media(max-width:930px) {
     header {
         position: relative;
     }
